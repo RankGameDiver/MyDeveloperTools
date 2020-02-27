@@ -10,15 +10,15 @@ public class StringKey : MonoBehaviour
     {
         /////////////////// 임시로 이부분만 복사 후, Text만 바꿔서 적용)
         Text text = this.GetComponent<Text>();
-        UILabel uILabel = this.GetComponent<UILabel>();
+        //UILabel uILabel = this.GetComponent<UILabel>();
         TextMeshProUGUI textPro = this.GetComponent<TextMeshProUGUI>();
 
         if (text != null)
             text.text = strItem.data;
         /////////////////////
 
-        if (uILabel != null)
-            uILabel.text = strItem.data;
+        //if (uILabel != null)
+        //    uILabel.text = strItem.data;
 
         if(textPro != null)
             textPro.text = strItem.data;
