@@ -11,6 +11,11 @@ public class ProbabilitySystem : MonoBehaviour
 
     private void Start()
     {
+        Test();
+    }
+
+    private void Test()
+    {
         Dictionary<string, int> dic = new Dictionary<string, int>();
         dic.Add("A", 10);
         dic.Add("B", 20);
